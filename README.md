@@ -1,8 +1,22 @@
-a = 10
-b = 1
-if a > b:
-  print("a is greater than b")
-elif b == a:
-  print("b and a are equal")
+pin = int(input('Enter your PIN:'))
+if pin == 1234:
+    print('Your pin is right!')
 else:
-  print("b is greater than a")
+    print('Wrong pin number. Try again!')
+    
+pin = int(input('Enter your PIN:'))
+if pin == 1234:
+    print('Your pin is right!')
+else:
+    print('Wrong pin number. Try again!')
+    
+    
+pin = int(input('Enter your PIN:'))
+if pin == 1234:
+    print('Your pin is right!')
+else:
+    print('Wrong pin number. YOU blocked your card!')
+
+    
+    
+    
