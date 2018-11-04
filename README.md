@@ -2,5 +2,5 @@
 x=9
 y=Alexa
 
-print(x)
-print(y)
+print("x")
+print("y")
