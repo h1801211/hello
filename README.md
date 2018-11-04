@@ -1,6 +1,8 @@
-# hello
-x=9
-y=Alexa
-
-print("x")
-print("y")
+a = 10
+b = 1
+if a > b:
+  print("a is greater than b")
+elif b == a:
+  print("b and a are equal")
+else:
+  print("b is greater than a")
